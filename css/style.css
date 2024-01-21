@@ -1,0 +1,362 @@
+*{margin: 0; padding: 0; box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+font-family: 'Poppins', sans-serif;}
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+li{ list-style: none; }
+p{font-size: .9rem
+  font-weight:400;
+  line-height: 1.5;
+  color: #606060;}
+  i{
+  	color: #2fccd0;
+  }
+
+.header{
+width: 100%; height: 100vh;
+background-image:linear-gradient(rgba(0,168,255,0.3), rgba(0,168,255,0.3)), url('../images/hdrbg4.jpg');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment:scroll;
+clip-path: polygon(100% 0%, 100% 77%,50% 100%,0 75%,0 0);
+position: relative;
+}
+.header:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	 opacity:.3;
+    z-index: -1;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%)
+   
+
+}
+.navbar:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity:.3;   
+    z-index: -1;
+	background:linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%)
+    
+}
+.nav-item a{
+	color: #fff;
+	font-weight: bold;
+}
+.nav-item a:hover{
+	color: #fff;
+	font-weight: bold;}
+.header-section{
+	width: 100%;
+	height: inherit;
+	color: white;
+	text-align: center;
+	position: relative;
+
+}
+.center-div{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% ,-50%);
+	-ms-transform: translate(-50% ,-50%);
+	-webkit-transform: translate(-50% ,-50%);
+
+}
+.header-buttons a{
+	border:1px solid white;
+	border-radius: 100px;
+	margin: 0 7px;
+	padding: 12px 35px;
+	color: white;
+	text-align: center;
+	outline: none;
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: 400;
+
+}
+.header-buttons a:hover{
+	color: #50d1c0;
+	background-color: white;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.4); 
+	text-decoration: none;
+}
+.center-div p{
+	font-size:20px;
+	padding: 10px 0 13px 0;
+    color: white;
+
+}
+
+/********* hero section *****/
+
+.header-extradiv{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+	text-align: center;
+}
+.extra-div{
+	background:white;
+	padding: 40px!important;
+	border:none;
+	border-radius:3px;
+	transition: .4s;
+}
+.extra-div h3{
+	font-size: .9rem;
+	font-weight: bold; 
+	margin: 20px 0 13px 0;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+.extra-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.4); 
+	transform: translateY(-10%);
+}
+/********** services section ******/
+.services{
+	background-color: #f7f7f9;
+	padding: 50px 0;
+	margin-bottom: 50px; 
+}
+.headings {
+	margin-bottom: 50px;
+
+}
+.headings h1{
+	font-weight:600;
+	font-size: 30px;
+   text-transform: uppercase;
+
+}
+.names h1{
+	color: #2e2e2e;
+	font-size: 12px;
+	text-transform: capitalize;
+
+}
+.servicesdiv h2{
+	font-size: .9rem;
+	font-weight: bold; 
+	margin: 20px 0 13px 0;
+	line-height: 1.1;
+	word-spacing: 4px;
+}
+.servicesicons{
+	display: flex;justify-content: center;
+	align-items: center;
+}
+.progress{
+	margin-bottom: 40px!important;
+}
+/********* projects done section starts ******/
+
+
+
+.project-work{
+	margin: 100px 0;
+
+}
+.project-work h1{
+	font-size: 2rem;
+	text-align: center;
+}
+
+/********* pricing *******/
+
+.Pricing{
+	width: 100%;
+	height: 100vh;
+	padding: 50px;
+	position: relative;
+
+}
+.Pricing:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;  
+    z-index: -1;
+	background:linear-gradient(160deg, #16c9f6 55%, #fff 0%);}
+.money{
+	font-size:40px;
+	line-height: 1;
+	color: #606060;
+}	
+.card{
+	transition: .4s ease;
+	border-bottom:3px solid #50d1c0!important ;
+    
+}
+.card-header{
+	font-weight: 500;
+	font-size: 1.8rem;
+	padding: 30px 9!important;
+	background: #fff!important;
+}
+.card-body{
+	padding: 30px 0!important;
+}
+.card-body li{
+
+	margin:10px 0!important;
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #606060;
+
+}
+.card-footer{
+	padding: 30px 0px!important;
+	background-color: white!important;
+}
+.card-footer a{
+	border:1px solid #50d1c0;
+	border-radius: 100px;
+	margin: 0 7px;
+	padding: 12px 35px;
+	color: #50d1c0;
+	text-align: center;
+	outline: none;
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: 400;
+
+}
+.card:hover .card-footer a{
+	color: #fff;
+	background-color: #50d1c0;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.4); 
+	text-decoration: none;
+}
+.card:hover {
+	transform: translateY(-20px);
+	box-shadow: 0 0 20px 0 rgba(0,0,0,.4); 
+
+}
+.card:hover .card-header , .card:hover .money{
+    color: #50d1c0; 
+}
+.upwordcard{
+	transform: translateY(-30px);
+}
+
+/************* pricing ends *********/
+.happyclients{
+  width:100%
+  height:100vh;
+  padding: 110px 0;
+}
+.box{
+	text-align: center;
+	border:1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	box-shadow:0 0px 10px 0 rgba(0,0,0,0.3);
+	transition: 0.2s ease;
+}
+.box:hover{
+	background:#16c9f6;
+	
+}
+.box:hover p{
+	color: #fff;
+}
+.carousel-indicators{
+	position: absolute;
+	right: 0;
+	bottom: -60px!important;
+	cursor: pointer;
+}
+.carousel-indicators li{
+	background-color: #16c9f6!important;
+}
+.box a{
+	position: relative;
+}
+.box a img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 20px;
+}
+.box h1{
+	font-size: 17px;
+	font-weight: 400;
+    margin-bottom: 20px;
+}
+.box h2{
+	font-size: 12px;
+	font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+/******************* contact sectio starts **********/
+
+.contactus{
+	width: 100%;
+	height: 100vh;
+	padding: 80px 0 ;
+	position: relative;
+}
+.contactus:before{
+	content: ".";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: linear-gradient(330deg,#16c9f6 55%, #fff 0%);
+    z-index:-1;
+}
+
+/**********/
+
+.newsletter{
+	width: 100%;
+	height: auto;
+	margin:90px 0;
+}
+.news-input{
+	border-radius: 100px 0 0 100px!important;
+	min-height: 50px!important;
+	min-width: 150px!important;
+
+}
+.input-group-text{
+	border-radius: 0 100px 100px 0!important;
+	min-width: 60px!important;
+	min-height: 50px!important;
+	background: #16c9f6!important;
+	color: white!important;
+    cursor: pointer;
+}
+
+
+/******** news letter end ********/
+
+
+.footersection{
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 70px 0 20px 0;
+	background: #00abff;
+
+}
+.footersection p {
+	color: white;
+}
